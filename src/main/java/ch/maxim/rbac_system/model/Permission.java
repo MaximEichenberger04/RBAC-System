@@ -1,17 +1,7 @@
 package ch.maxim.rbac_system.model;
 
-public class Permission {
-
-    private String name;
-
-    public Permission() {
-    }
-
-    public Permission(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
+public enum Permission {
+    VIEW_SITE,
+    MODERATE_SITE,
+    ACCESS_ADMIN_PANEL
 }
